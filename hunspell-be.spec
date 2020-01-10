@@ -1,7 +1,7 @@
 Name: hunspell-be
 Summary: Belarusian hunspell dictionaries
 Version: 1.1
-Release: 6%{?dist}
+Release: 7%{?dist}
 Source: http://extensions.services.openoffice.org/files/2412/1/dict-be-official.oxt
 Group: Applications/Text
 URL: http://extensions.services.openoffice.org/project/dict-be-official
@@ -50,6 +50,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/hyphen/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1-7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.1-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
